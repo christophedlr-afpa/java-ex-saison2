@@ -1,0 +1,25 @@
+ALGORITHME PrixTTC
+
+VARIABLES
+    artHT = 0: numérique
+    countArt = 0: numérique
+    tTVA = 0: numérique
+    result = 0: numérique
+
+DEBUT
+    Ecrire "Algorithme PrixTTC"
+
+    Ecrire "Prix hors taxe de l'article : "
+    Lire artHT
+
+    Ecrire "Nombre d'articles : "
+    Lire countArt
+
+    Ecrire "Taux de TVA : "
+    Lire tTVA
+
+    result = (artHT*countArt)*(1+(tTVA/100))
+    Ecrire "Le montant total est de : "&result&" €"
+FIN
+
+FIN ALGORITHME
